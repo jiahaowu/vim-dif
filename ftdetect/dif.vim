@@ -1,2 +1,1 @@
-" ftdetect/dif.vim
-autocmd BufNewFile, BufRead *.dif setfiletype dif
+autocmd BufNewFile, BufRead *.dif setlocal filetype=dif
