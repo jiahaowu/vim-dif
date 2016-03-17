@@ -1,1 +1,1 @@
-autocmd BufNewFile, BufRead *.aif setfiletype aif
+autocmd BufNewFile,BufRead *.aif setfiletype aif

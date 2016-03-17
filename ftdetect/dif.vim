@@ -1,1 +1,1 @@
-autocmd BufNewFile, BufRead *.dif setlocal filetype=dif
+autocmd BufNewFile,BufRead *.dif setfiletype dif
