@@ -11,13 +11,6 @@ elseif exists("b:current_syntax")
     finish
 endif
 
-" Set the local value of the 'iskeyword' option
-if version >= 600
-    setlocal iskeyword=@,48-57,_,192-255
-else
-    set iskeyword=@,48-57,_,192-255
-endif
-
 " DIF keywords
 syn keyword difStatement   topology actor nodes edges
 syn keyword difStatement   production consumption
