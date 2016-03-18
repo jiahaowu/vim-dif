@@ -10,7 +10,7 @@ endif
 " AIF keywords
 syn keyword aifStatement   graph interface topology 
 syn keyword aifStatement   actor inputs outputs nodes edges 
-syn keyword aifModel       bdf cfdf csdf dif ildf mdsdf psdf sdf
+syn keyword aifModel       bdf cfdf csdf dif ildf mdsdf psdf sdf <- -> :
 syn keyword aifConstant    true false null
 
 syn keyword aifTodo contained TODO FIXME XXX NOTE
