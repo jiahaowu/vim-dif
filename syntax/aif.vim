@@ -8,9 +8,11 @@ if exists("b:current_syntax")
 endif
 
 " AIF keywords
-syn keyword aifStatement   graph interface topology 
-syn keyword aifStatement   actor inputs outputs nodes edges 
-syn keyword aifModel       bdf cfdf csdf dif ildf mdsdf psdf sdf <- -> :
+syn match aifIdName "[a_zA_Z0-9]\+{\.[a_zA_Z0-9]}*"
+syn keyword aifId graph actor nextgroup=aifIdName skipwhite
+syn keyword aifStatement   interface topology 
+syn keyword aifStatement   inputs outputs nodes edges 
+syn keyword aifModel       bdf cfdf csdf dif ildf mdsdf psdf sdf
 syn keyword aifConstant    true false null
 
 syn keyword aifTodo contained TODO FIXME XXX NOTE
