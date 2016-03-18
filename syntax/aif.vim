@@ -8,7 +8,8 @@ if exists("b:current_syntax")
 endif
 
 " AIF keywords
-syn match aifIdName "[a_zA_Z0-9]\+{\.[a_zA_Z0-9]}*"
+syn match aifIdName "[a-zA-Z0-9\.]\+"
+syn match aifArrow "<\-" 
 syn keyword aifId graph actor nextgroup=aifIdName skipwhite
 syn keyword aifStatement   interface topology 
 syn keyword aifStatement   inputs outputs nodes edges 
@@ -17,6 +18,7 @@ syn keyword aifConstant    true false null
 
 syn keyword aifTodo contained TODO FIXME XXX NOTE
 syn region  aifComment start="/\*" end="\*/" contains=aifTodo
+syn region aifIdBlock start="(actor)|(graph)" end="<\-" contains=aifIdName
 syn match   aifComment "//.*" contains=aifTodo
 syn match   aifValue "\<[+-]\=[0-9_]\+\(\.[0-9_]*\|\)\([eE][0-9_]*\|\)\>"
 syn match   aifValue "\[.\{-}\]"
@@ -32,6 +34,7 @@ hi def link aifConstant       Constant
 hi def link aifValue      Number
 hi def link aifStatement      Statement
 hi def link aifModel      Statement
-hi def link aifIdName String
-hi def link aifId Todo
+"hi def link aifIdName String
+hi def link aifId Statement
+hi def link aifArrow Statement
 
