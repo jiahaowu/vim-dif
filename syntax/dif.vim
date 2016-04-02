@@ -8,7 +8,7 @@ if exists("b:current_syntax")
 endif
 
 " DIF keywords
-syn keyword difStatement   production consumption
+syn keyword difStatement   production consumption topology actor
 syn keyword difStatement   attribute baseon parameter interface refinement
 syn keyword difStatement   computation
 syn keyword difStatement   inputs outputs
