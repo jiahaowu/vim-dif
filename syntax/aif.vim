@@ -34,7 +34,6 @@ hi def link aifConstant       Constant
 hi def link aifValue      Number
 hi def link aifStatement      Statement
 hi def link aifModel      Statement
-"hi def link aifIdName String
 hi def link aifId Statement
 hi def link aifArrow Statement
 
