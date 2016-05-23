@@ -9,7 +9,7 @@ endif
 
 " DIF keywords
 syn keyword difStatement   production consumption topology actor
-syn keyword difStatement   attribute baseon parameter interface refinement
+syn keyword difStatement   attribute basedon parameter interface refinement
 syn keyword difStatement   computation
 syn keyword difStatement   inputs outputs
 syn keyword difModel       bdf cfdf csdf dif ildf mdsdf psdf sdf
