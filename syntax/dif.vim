@@ -9,8 +9,8 @@ endif
 
 " DIF keywords
 syn keyword difStatement   production consumption delay topology actor type input output mode param
-syn keyword difStatement   attribute basedon parameter interface refinement
-syn keyword difStatement   inputs outputs
+syn keyword difStatement   attribute basedon parameter interface refinement actortype
+syn keyword difStatement   inputs outputs msa
 syn keyword difModel       bdf cfdf csdf dif ildf mdsdf psdf sdf
 syn keyword difConstant    true false
 
