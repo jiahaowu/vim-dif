@@ -11,7 +11,7 @@ endif
 syn keyword difStatement   production consumption delay topology actor type input output mode param
 syn keyword difStatement   attribute basedon parameter interface refinement actortype
 syn keyword difStatement   inputs outputs msa
-syn keyword difModel       bdf cfdf csdf dif ildf mdsdf psdf sdf
+syn keyword difModel       bdf cfdf csdf dif ildf mdsdf psdf sdf wsdf
 syn keyword difConstant    true false
 
 syn keyword difTodo contained TODO FIXME XXX NOTE
