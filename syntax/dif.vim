@@ -8,9 +8,9 @@ if exists("b:current_syntax")
 endif
 
 " DIF keywords
-syn keyword difStatement   production consumption delay topology actor type input output mode param
+syn keyword difStatement   production consumption delay topology actor type input output mode param 
 syn keyword difStatement   attribute basedon parameter interface refinement actortype
-syn keyword difStatement   inputs outputs msa
+syn keyword difStatement   inputs outputs msa nodes edges
 syn keyword difModel       bdf cfdf csdf dif ildf mdsdf psdf sdf wsdf
 syn keyword difConstant    true false
 
